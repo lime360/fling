@@ -7,7 +7,7 @@ from env import webring_name, public_url, password
 from webring import create_db, insert_site, list_all_sites, get_site_index
 from auth import generate, verify
 
-version = "0.0.1"
+version = "0.0.1-docker"
 app = Flask(__name__)
 
 create_db()
